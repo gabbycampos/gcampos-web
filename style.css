@@ -5,6 +5,11 @@
 
 body {
   font-family: 'Varela Round', sans-serif;
+  background-color: #000;
+  letter-spacing: 1px;
+}
+.navbar {
+  background-color: #000;
 }
 .bg {
   position: fixed;
@@ -81,7 +86,7 @@ body {
   animation-delay: 41s;
 }
 .bg-area li:nth-child(15) {
-  left: 88%;
+  left: 68%;
   animation-delay: 44s;
 }
 .bg-area li:nth-child(16) {
@@ -89,7 +94,7 @@ body {
   animation-delay: 47s;
 }
 .bg-area li:nth-child(17) {
-  left: 28%;
+  left: 62%;
   animation-delay: 50s;
 }
 .bg-area li:nth-child(18) {
@@ -125,7 +130,7 @@ body {
   animation-delay: 74s;
 }
 .bg-area li:nth-child(26) {
-  left: 58%;
+  left: 42%;
   animation-delay: 77s;
 }
 .bg-area li:nth-child(27) {
@@ -141,7 +146,7 @@ body {
   animation-delay: 84s;
 }
 .bg-area li:nth-child(30) {
-  left: 60%;
+  left: 77%;
   animation-delay: 87s;
 }
 .bg-area li:nth-child(31) {
@@ -174,4 +179,27 @@ body {
     transform: translateY(-800px) rotate(360deg);
     opacity: 0;
   }
+}
+
+
+h1 {
+  color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h5, p {
+  color: #fff;
+}
+a {
+  margin-left: 15px;
+  color: #edca85;
+}
+a:hover {
+  text-decoration: none;
+  color: #a162e8
+}
+img {
+  border: 10px solid white;
 }
