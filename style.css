@@ -176,10 +176,6 @@ body {
   left: 66%;
   animation-delay: 13s;
 }
-.bg-area li:nth-child(39) {
-  left: 76%;
-  animation-delay: 16s;
-}
 
 @keyframes spin {
   100% {
