@@ -109,7 +109,7 @@ body {
   animation-delay: 62s;
 }
 .bg-area li:nth-child(22) {
-  left: 30%;
+  left: 79%;
   animation-delay: 65s;
 }
 .bg-area li:nth-child(23) {
@@ -157,7 +157,7 @@ body {
   animation-delay: 96s;
 }
 .bg-area li:nth-child(34) {
-  left: 30%;
+  left: 37%;
   animation-delay: 1s;
 }
 .bg-area li:nth-child(35) {
@@ -167,14 +167,6 @@ body {
 .bg-area li:nth-child(36) {
   left: 34%;
   animation-delay: 7s;
-}
-.bg-area li:nth-child(37) {
-  left: 82%;
-  animation-delay: 10s;
-}
-.bg-area li:nth-child(38) {
-  left: 66%;
-  animation-delay: 13s;
 }
 
 @keyframes spin {
