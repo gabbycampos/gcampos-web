@@ -203,3 +203,11 @@ a:hover {
 img {
   border: 10px solid white;
 }
+
+.card {
+  background-color: #2b2b2b;
+  color: white;
+}
+h2 {
+  color: #fff;
+}
