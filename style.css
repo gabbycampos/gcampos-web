@@ -62,10 +62,6 @@ body {
     width: 20rem;
     margin-top: 5rem;
   }
-  .about-img {
-    width: 10rem;
-    padding-left: 0;
-  }
 }
 
 /* h1 {
@@ -92,6 +88,12 @@ a:hover {
 .about-img {
   width: 40rem;
   padding-left: 5rem;
+}
+@media only screen and (max-width: 600px) {
+  .about-img {
+    width: 20rem;
+    padding-left: 0;
+  }
 }
 
 .card {
