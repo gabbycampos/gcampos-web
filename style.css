@@ -112,3 +112,56 @@ ul > li {
 .list a {
   color: black;
 }
+
+/* WORK */
+.work-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  height: 580px;
+  padding: 3rem;
+}
+.item {
+  width: 32%;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+}
+/* Re-order items into rows */
+.item:nth-child(3n+1) { order: 1; }
+.item:nth-child(3n+2) { order: 2; }
+.item:nth-child(3n)   { order: 3; }
+/* Force new columns */
+.work-container::before,
+.work-container::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
+}
+.app-links {
+  color: rgb(85, 84, 84);
+}
+@media only screen and (max-width: 600px) {
+  .work-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 580px;
+    padding: 3rem;
+  }
+  .item {
+    width: 100%;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+  }
+  /* Re-order items into rows */
+  .item:nth-child(3n+1) { order: 1; }
+  .item:nth-child(3n+2) { order: 2; }
+  .item:nth-child(3n)   { order: 3; }
+  /* Force new columns */
+  .work-container::before,
+  .work-container::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+  }
+}
