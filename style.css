@@ -122,7 +122,7 @@ ul > li {
   padding: 3rem;
 }
 .item {
-  width: 40%;
+  width: 30%;
   margin-bottom: 2%; /* (100-32*3)/2 */
 }
 /* Re-order items into rows */
